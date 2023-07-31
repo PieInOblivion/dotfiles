@@ -1,0 +1,16 @@
+font-main: &font-main "JetBrainsMono Nerd Font:size=14"
+
+bar:
+  height: 26
+  location: bottom
+  background: 00000000
+
+  center:
+    - clock:
+        time-format: "%I:%M %p"
+        date-format: "%d/%m/%y"
+        content:
+          - string: {text: "  ", font: *font-main, foreground: 74c7ecff}
+          - string: {text: "{date}   ", font: *font-main, foreground: 74c7ecff}
+          - string: {text: "     ", font: *font-main, foreground: cba6f7ff}
+          - string: {text: "{time}", font: *font-main, foreground: cba6f7ff}

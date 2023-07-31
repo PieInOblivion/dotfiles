@@ -1,0 +1,2 @@
+enable_selector = true
+selector = "fuzzel -dmenu -p 'Open With: '"

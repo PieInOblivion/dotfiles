@@ -1,0 +1,38 @@
+{
+  "position": "bottom",
+  "layer": "top",
+  "height": 26,
+  "modules-left": [
+    "wlr/workspaces"
+  ],
+  "modules-center": [
+    "tray",
+    "custom/date",
+    "clock"
+  ],
+  "modules-right": [
+  ],
+  "wlr/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "on-click": "activate",
+    "format": "{name}",
+    "sort-by-number": true
+  },
+  "hyprland/window": {
+    "max-length": 30
+  },
+  "tray": {
+    "icon-size": 18,
+    "spacing": 8
+  },
+  "custom/date": {
+    "format": "    {}",
+    "interval": 3600,
+    "exec": "date +'%a %d/%m/%g'"
+  },
+  "clock": {
+    "format": "  {:%I:%M %p} ",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  }
+}

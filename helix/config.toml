@@ -1,0 +1,27 @@
+theme = "catppuccin_mocha_no_italics"
+
+[editor]
+line-number = "relative"
+mouse = false
+shell = ["foot"]
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.lsp]
+display-messages = false # Display LSP progress messages below statusline
+auto-signature-help = false # Enable automatic popup of signature help (parameter hints)
+display-signature-help-docs = false # Display docs under signature help popup
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+#h = "move_line_up"
+#j = "move_line_down"
+#k = "move_char_left"
+#l = "move_char_right"
+esc = ["collapse_selection", "keep_primary_selection"]
