@@ -25,9 +25,6 @@
 
 **AUR Helper:** [`paru-bin`](https://github.com/Morganamilo/paru)
 
-
-
-
 ## Applications
 `btop` `discord` `firefox` `foot` `fuzzel` `helix` `imv` `libreoffice-fresh` `mpv` `nnn` `pavucontrol` `plex-desktop` `simplenote-electron-bin` `yambar`
 
