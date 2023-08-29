@@ -6,10 +6,18 @@
 
 ### Support packages:
 
-`7-zip-full gzip tar unrar unzip libva libva-mesa-driver libva-nvidia-driver qt5-wayland qt6-wayland ntfs-3g ffmpeg`
+`7-zip-full gzip tar unrar unzip libva qt5-wayland qt6-wayland ntfs-3g ffmpeg`
 
 ### Package list does not include:
-  - CPU microcode
-  - Nvidia, Intel or AMD video drivers
-  - Seperate video acceleration drivers
+  - CPU Microcode. [Reference](https://wiki.archlinux.org/title/microcode)
+    - AMD: `amd-ucode`
+    - Intel: `intel-ucode`
+  - Graphics Drivers. [Reference](https://wiki.archlinux.org/title/Xorg#Driver_installation)
+    - [AMD](https://wiki.archlinux.org/title/AMDGPU): `mesa` + `vulkan-radeon`
+    - [Intel](https://wiki.archlinux.org/title/Intel_graphics): `mesa` + `vulkan-intel`
+    - [Nvidia](https://wiki.archlinux.org/title/NVIDIA): `nvidia`
+  - Video Acceleration Drivers. [Reference](https://wiki.archlinux.org/title/Hardware_video_acceleration)
+    - AMD: `libva-mesa-driver`
+    - Intel: `intel-media-driver`
+    - Nvidia: `libva-mesa-driver` + `libva-nvidia-driver`
   - Programming language support libraries, compilers and LSPs
