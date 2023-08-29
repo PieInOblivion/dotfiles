@@ -52,3 +52,4 @@
     - Intel: `intel-media-driver`
     - Nvidia: `libva-mesa-driver` + `libva-nvidia-driver`
   - Programming language support libraries, compilers and LSPs
+  - Laptop GPU control: [`envycontrol`](https://github.com/bayasdev/envycontrol)
